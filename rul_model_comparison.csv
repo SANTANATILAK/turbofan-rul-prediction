@@ -1,0 +1,5 @@
+Model,CV_RMSE_(3-fold by engine),Test_RMSE,Test_MAE,Test_R2,NASA_score,Warn_precision,Warn_recall,Warn_F1
+Baseline (mean),41.67,41.94,34.83,-0.095,33354.0,0.0,0.0,0.0
+Ridge,20.02,21.26,16.48,0.719,1418.0,1.0,0.44,0.611
+Random Forest,17.32,17.83,13.03,0.802,681.0,0.947,0.72,0.818
+XGBoost,17.36,17.66,12.84,0.806,675.0,0.944,0.68,0.791
